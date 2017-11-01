@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <title>Vekemans Webdesign: Contact</title>
+      <link rel="stylesheet" href="portfolio2.css" type="text/css" >
+    </head>
+      <body>
+<link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css?family=Wire+One" rel="stylesheet">
+
+<a name="to-top"><img src="https://i.pinimg.com/564x/a5/2e/0e/a52e0e5a11d8a2cd80881707224de03f.jpg"></a>
+
+<nav>
+  <ul>
+   <li><a href="vekemans_webdevelopment_portfolio_website.html">About Me</a></li>
+   <li><a href="vekemans_webdevelopment_portfolio_website_portfolio.html">Portfolio</a></li>
+   <li><a href="vekemans_webdevelopment_portfolio_website_contact.html">Contact</a></li>
+  </ul>
+</nav>
+
+<div class="contact">
+  <h1><a name="contact1">Contact</a></h1>
+
+  <p class="contact-text">If you want to contact me, fill in the form below, or drop me a message on one of my social media accounts:<br /><br />
+
+  <a href="https://www.facebook.com/vekemanswebdevelopment" target='_blank'><img class="social" src="http://www.freeiconspng.com/uploads/facebook-logo-4.png" alt="Facebook"></a>
+  
+<a href="https://twitter.com/VekemansWebdevelopment" target='_blank'><img class="social" src="https://pbs.twimg.com/profile_images/531381005165158401/bUJYaSO9.png" alt="Twitter"></a>
+                       
+<a href="www.linkedin.com/in/josien-vekemans-25a98a131
+" target='_blank'><img class="social" src="http://eswi.org/wp-content/uploads/2016/08/linkedin-in-logo.png" alt="LinkedIn"></a></p>
+
+<form action="/submit-message" class="contact-form">
+  <textarea rows="1" cols="10" required placeholder="Name" class="senderName"></textarea>
+  <textarea rows="1" cols="10" required placeholder="Email address" class="senderAddress"></textarea>
+  <textarea rows="10" cols="10" class="message" required placeholder="Your message" class"messageInput"></textarea>
+  
+ <div class="submit-button">
+    <button type="submit" class="btn btn-block btn-primary" id="submitButton">Submit</button>
+ </div>
+</form>
+
+ </div> 
+</div>
+
+<script type="text/javascript">
+   document.getElementById("submitButton").onclick = submit
+
+   function submit(){
+     var x = document.getElementsByTagName("textarea") [0].value
+     var y = document.getElementsByTagName("textarea") [1].value
+     var z = document.getElementsByTagName("textarea") [2].value
+     
+     var s = new RegExp("@")
+     var patt = s.test(y)
+     if(patt == false){
+        alert("Fill in a valid email address") 
+     } else {
+         alert("Thank you for your message!")
+     }
+   }
+
+   function textContain(){
+     
+   }
+
+</script>
+
+    </body>
+  </html>
+
