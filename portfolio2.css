@@ -1,3 +1,8 @@
+@media (max-width: 800px){
+  body{
+    background-color: orange;
+  }
+}
 
 h1{
   font-size: 400%;
@@ -131,7 +136,10 @@ li a:hover {
 }
 
 textarea {
-  outline: none;
+  margin: 10px;
+  font-family: 'Wire One', sans-serif;
+  font-weight: 500;
+  font-size: 200%;
 }
 
 .senderName{

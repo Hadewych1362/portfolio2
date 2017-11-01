@@ -13,9 +13,9 @@
 
 <nav>
   <ul>
-   <li><a href="vekemans_webdevelopment_portfolio_website.html">About Me</a></li>
-   <li><a href="vekemans_webdevelopment_portfolio_website_portfolio.html">Portfolio</a></li>
-   <li><a href="vekemans_webdevelopment_portfolio_website_contact.html">Contact</a></li>
+   <li><a href="portfolio2_about_me.html">About Me</a></li>
+   <li><a href="portfolio2_portfolio.html">Portfolio</a></li>
+   <li><a href="portfolio2.html">Contact</a></li>
   </ul>
 </nav>
 
@@ -32,9 +32,9 @@
 " target='_blank'><img class="social" src="http://eswi.org/wp-content/uploads/2016/08/linkedin-in-logo.png" alt="LinkedIn"></a></p>
 
 <form action="/submit-message" class="contact-form">
-  <textarea rows="1" cols="10" required placeholder="Name" class="senderName"></textarea>
-  <textarea rows="1" cols="10" required placeholder="Email address" class="senderAddress"></textarea>
-  <textarea rows="10" cols="10" class="message" required placeholder="Your message" class"messageInput"></textarea>
+  <textarea rows="1" cols="20" required placeholder="Name" class="senderName"></textarea>
+  <textarea rows="1" cols="20" required placeholder="Email address" class="senderAddress"></textarea>
+  <textarea rows="10" cols="50" class="message" required placeholder="Your message" class"messageInput"></textarea>
   
  <div class="submit-button">
     <button type="submit" class="btn btn-block btn-primary" id="submitButton">Submit</button>
@@ -54,10 +54,12 @@
      
      var s = new RegExp("@")
      var patt = s.test(y)
-     if(patt == false){
-        alert("Fill in a valid email address") 
+     if(patt == true && x && z){
+        alert("Thank you for your message!") 
+     } else if(patt == false){
+         alert("Fill in a valid email address")
      } else {
-         alert("Thank you for your message!")
+         alert("Fill in all fields, please.")
      }
    }
 
