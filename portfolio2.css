@@ -1,0 +1,170 @@
+@media (max-width: 800px){
+  body{
+    background-color: orange;
+  }
+}
+
+h1{
+  font-size: 400%;
+  font-weight: 100;
+  font-family: 'Cinzel Decorative', cursive;
+  color: #000;
+  text-decoration: none;
+  text-align: center;
+  width: 1900px;
+}
+
+p{
+  position: relative;
+  left: 400px;
+  top: 40px;
+  width: 700px;
+  margin-bottom: 50px;
+  font-family: 'Wire One', sans-serif;
+  font-weight: 500;
+  font-size: 200%;
+  color: #000;
+}
+
+.aboutme{
+  height: 300px;
+  display: inline;
+}
+
+nav{
+  position: fixed;
+  float: left;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  font-family: 'Wire One', sans-serif;
+  font-weight: 100;
+  font-size: 300%;
+  color: #fff;
+  background-color: #9d8869;
+  border-width: 1px;
+  border-radius: 10px;
+}
+
+li a {
+  display: block;
+  color: #fff;
+  padding: 8px 16px;
+  border-width: 1px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+    background-color: #555;
+    color: white;
+    text-decoration: none;
+}
+.portfolio{
+ width: 1080px;
+ height: 850px;
+ margin-left: 400px;
+ display: inline-block;
+}
+
+#gardenpatch{
+  border-style: solid;
+  border-width: 1px;
+  width: 500px;
+  height: 320px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+}
+
+#gezondkoken{
+  width: 500px;
+  height: 320px;
+  margin-bottom: 50px;
+ }
+
+ .firstRow{
+ }
+
+.secondRow{
+  clear: left;
+}
+
+#wizardingwars{
+  width: 500px;
+  height: 320px;
+  margin-right: 50px;
+ }
+
+#cvc{
+  width: 500px;
+  height: 320px;
+}
+
+
+.contact{
+}
+
+.contact-text{
+  position: relative;
+  left: 200px;
+  top: 40px;
+  width: 1000px;
+  margin-left: 200px;
+  font-family: 'Wire One', sans-serif;
+  font-weight: 500;
+  font-size: 200%;
+  color: #000;
+}
+
+
+.social{
+  height: 50px;
+  width: 50px;
+}
+
+.contact-form{
+  position: relative;
+  left: 400px;
+  top: 40px;
+  margin-top: 80px;
+  width: 100px;
+}
+
+textarea {
+  margin: 10px;
+  font-family: 'Wire One', sans-serif;
+  font-weight: 500;
+  font-size: 200%;
+}
+
+.senderName{
+  display: inline;
+}
+
+.senderAddress{
+  display: ;
+}
+
+.btn-primary {
+    background: #9d8869;
+    color: #fff;
+    height: 50px;
+    width: 100px;
+    font-family: 'Wire One', sans-serif;
+    font-size: 200%;
+    font-weight: 200;
+    border: none;
+    display: inline;
+    position: relative;
+    left: 0px;
+}
+
+.btn-primary:hover {
+    background-color: #555;
+    color: #fff;
+}
